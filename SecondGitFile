@@ -1,0 +1,22 @@
+GIT COMMANDS
+
+Setup
+- git version
+- git config --global user.name "Omega"
+- git config --global user.email "omega@gmail.com"
+- git help
+- git help comandName
+
+create a folder, cd into it and initialize Git:
+- git init
+
+Verify what is untracked (not added), what will be commited, was commited or whats being commited
+- git status
+
+Commiting:
+- git add . (this means add all files in current directory, or you can specify by filename only)
+- git commit -m "Date or Message for Commit" 
+
+See Commit Logs (Versions)
+- git log
+- git commit --author="Omega, B"
